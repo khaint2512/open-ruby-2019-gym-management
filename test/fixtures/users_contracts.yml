@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  PT_id: 1
+  activated_at: 2019-09-17 14:22:21
+  expired_at: 2019-09-17 14:22:21
+
+two:
+  user_id: 1
+  PT_id: 1
+  activated_at: 2019-09-17 14:22:21
+  expired_at: 2019-09-17 14:22:21

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  date: 2019-09-17 14:24:21
+  running_distance: 1.5
+  running_time: 2019-09-17 14:24:21
+  chest_rep: 1
+  abs_rep: 1
+  back_rep: 1
+  leg_rep: 1
+
+two:
+  user_id: 1
+  date: 2019-09-17 14:24:21
+  running_distance: 1.5
+  running_time: 2019-09-17 14:24:21
+  chest_rep: 1
+  abs_rep: 1
+  back_rep: 1
+  leg_rep: 1

@@ -1,0 +1,2 @@
+class HealthProcess < ApplicationRecord
+end
