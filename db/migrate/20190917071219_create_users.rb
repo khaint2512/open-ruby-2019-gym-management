@@ -10,6 +10,7 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.boolean :activated
       t.string :reset_password
       t.datetime :created_at
+      t.string :association
 
       t.timestamps
     end
