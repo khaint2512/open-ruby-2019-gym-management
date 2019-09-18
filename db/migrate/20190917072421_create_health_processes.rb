@@ -9,9 +9,10 @@ class CreateHealthProcesses < ActiveRecord::Migration[5.2]
       t.integer :abs_rep
       t.integer :back_rep
       t.integer :leg_rep
-      t.string :association
+      t.references :user_id, foreign_key: true
 
       t.timestamps
     end
+    add_index :health_processes, [:user_id, :created_at]
   end
 end
