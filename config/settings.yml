@@ -1,0 +1,10 @@
+views:
+  logo: "#"
+  home: "#"
+  packages: "#"
+  pt: "#"
+  signin: "#"
+  signup: "#"
+  video1: "https://www.youtube.com/embed/EHiKtN-VV_A"
+  video2: "https://www.youtube.com/embed/RYloYrc9JM0"
+  video3: "https://www.youtube.com/embed/TXq82zrT80I"

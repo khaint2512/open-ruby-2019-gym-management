@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= t ".title" %></title>
+    <link rel="stylesheet" href="/assets/stylesheets/custom.scss">
+     </head>
+  <body>
+    <div id="headerMenu" class="navbar navbar-expand-lg fixed-top navbar-light scrolled">
+      <h1>
+        <%= link_to t(".logo"), Settings.views.logo, class: "navbar-brand", id: "logo" %>
+      </h1>
+
+      <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
+        <ul class="navbar-nav">
+          <li class="nav-item" id="item">
+            <%= link_to t(".home"), Settings.views.home %>
+          </li>
+          <li class="nav-item" id="item">
+            <%= link_to t(".packages"), Settings.views.packages %>
+          </li>
+          <li class="nav-item" id="item">
+            <%= link_to t(".pt"), Settings.views.pt %>
+          </li>
+          <li class="nav-item" id="item">
+            <%= link_to t(".signin"), Settings.views.signin %>
+          </li>
+          <li class="nav-item" id="item">
+            <%= link_to t(".signup"), Settings.views.signup %>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-body">
+      <div class="owl-stage">
+        <%= image_tag "banner1.jpg" %>
+      </div>
+
+      <div class="container section1" id="section1">
+        <div class="row">
+          <div class="col-12">
+            <h1><%= t ".header-section1" %></h1>
+          </div>
+
+          <div class="section1-sapo">
+            <p>
+              <%= t ".p-section1" %>
+            </p>
+          </div>
+
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EHiKtN-VV_A" frameborder="0" allow="accelerometer; autoplay;
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              <%= link_to Settings.views.video1 %>
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="container section2" id="section2">
+        <div class="row">
+          <div class="col-12">
+            <h1><%= t ".header-section2" %></h1>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <p><%= t ".p1-section2" %></p>
+          </div>
+
+          <div class="col-12 col-md-6 hihi">
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/RYloYrc9JM0" frameborder="0" allow="accelerometer; autoplay;
+              encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <%= link_to Settings.views.video2 %>
+              </iframe>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <p><%= t ".p2-section2" %></p>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/TXq82zrT80I" frameborder="0" allow="accelerometer; autoplay;
+              encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <%= link_to Settings.views.video3 %>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
