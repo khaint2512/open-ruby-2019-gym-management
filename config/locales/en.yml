@@ -1,10 +1,10 @@
 en:
   layouts:
     application:
-      title: "Home | Gym Management"
+      base_title: "Gym Management"
   static_pages:
     home:
-      title: "Home | Gym Management"
+      title: "Home"
       logo: "Gym Management"
       home: "Home"
       packages: "Workout Packages"
@@ -16,3 +16,13 @@ en:
       header-section2: "Programs excercise"
       p1-section2: "Personal Trainers"
       p2-section2: "Class Excercise"
+  users:
+    new:
+      title: "Sign up"
+      form:
+        dob: "Your Date of Birth"
+        password_confirmation: "Confirmation"
+        button: "Create my account"
+    create:
+      flash:
+        success: "Welcome to our training program !"
